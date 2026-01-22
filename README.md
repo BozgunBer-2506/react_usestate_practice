@@ -24,30 +24,52 @@ This project focuses on the fundamental concepts of React's **Functional Compone
 ## 📂 Project Structure
 ```text
 src/
- ├── App.jsx        # Main logic, state definitions and component assembly
- ├── index.css      # Centralized modern styles and theme variables
+ ├── components/     # Reusable React components (Counter, Forms, etc.)
+ ├── App.jsx        # Main application component
+ ├── index.css      # Global styles and glassmorphism theme
  └── main.jsx       # Application entry point
 ```
 
 ## ⚙️ Installation & Setup
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/BozgunBer-2506/react_usestate_practice.git
+cd react_usestate_practice
 ```
 
-2. Install dependencies:
+2. **Install dependencies:**
 ```bash
 npm install
 ```
 
-3. Start the development server:
+3. **Start the development server:**
 ```bash
 npm run dev
 ```
 
+4. **Open your browser:**
+Navigate to `http://localhost:5173` (or the port shown in your terminal)
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint for code quality
+
+## 🎯 Learning Objectives
+This project demonstrates:
+- ✅ React functional components
+- ✅ useState hook for state management
+- ✅ Controlled component pattern
+- ✅ Component composition and reusability
+- ✅ Props drilling and data flow
+- ✅ Event handling in React
+- ✅ Modern CSS styling techniques
+
 ---
 
-Developed as part of React Development Training - 2026  
-Crafted by The_Bozgun
+**Developed as part of React Development Training - 2026**  
+**Crafted by The_Bozgun** 🚀
